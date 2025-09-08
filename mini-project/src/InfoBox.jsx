@@ -33,7 +33,7 @@ export default function InfoBox({ info, isDark }) {
         <Card
           sx={{
             width: "100%",
-            maxWidth: 500,
+            maxWidth: 640,
             borderRadius: 3,
             overflow: "hidden",
             bgcolor: "transparent",

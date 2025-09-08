@@ -74,7 +74,17 @@ export default function SearchBox({ updateInfo, isDark }) {
   }}
 />
         <br /><br /><br />
-        <Button variant="contained" type='submit'>
+   <Button
+  variant="contained"
+  type="submit"
+  sx={{
+    backgroundColor: isDark ? "#ffffff" : "#111111",
+    color: isDark ? "#111111" : "#ffffff",
+    "&:hover": {
+      backgroundColor: isDark ? "#eaeaea" : "#222222",
+    },
+  }}
+>
           Search
         </Button>
         {error && <p style={{ color: isDark ? "#ffd4d4" : "red", marginTop: 10 }}>No such place exist</p>}

@@ -20,7 +20,7 @@ export default function WeatherApp() {
     }
     if (weatherInfo.temp > 15) {
       return { 
-        bg: "linear-gradient(135deg,#ffefba,#ffffff)", // soft warm gradient, not plain white
+        bg: "linear-gradient(135deg,#ffefba,#ffffff)", 
         isDark: false 
       };
     }
